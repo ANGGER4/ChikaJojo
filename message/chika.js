@@ -86,9 +86,9 @@ module.exports = async(chika, msg, m, ind, setting) => {
             let number = numbers.replace(/[^0-9]/g, '')
             const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:' + name + '\n'
+            + 'FN:' + "angger" + '\n'
             + 'ORG:;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=' + number + ':+' + number + '\n'
+            + 'TEL;type=CELL;type=VOICE;waid=' + 085156336420 + ':+' + 085156336420 + '\n'
             + 'END:VCARD'
             return chika.sendMessage(from, { contacts: { displayName: name, contacts: [{ vcard }] }, mentions : men ? men : []},{ quoted: quoted })
         }
