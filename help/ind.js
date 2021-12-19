@@ -1,5 +1,5 @@
 exports.wait = () => {
-    return `_Tunggu sebentar yah kak sedang Jojo Proses nih_`
+    return `_Tunggu sebentar yah kak sedang Roxy Proses nih_`
 }
 
 exports.ok = () => {
@@ -49,7 +49,7 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ Anda bukan seorang admin! ❎`
 }
 
 exports.adminAlready = () => {
@@ -136,6 +136,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ and all support
 ├ Chika
 ├ Arasya
+├ Angger
 └──────
 
     `
@@ -187,9 +188,9 @@ exports.tos = (ownerNumber, prefix) => {
 
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-🏧 088213292687 (OVO/GoPay)
-🏧 081319944917 (Dana)
-
+🏧 082136707237 (OVO)
+🏧 085156336420 (Dana/GoPay)
+🏧 081717271441 (Pulsa)
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!
